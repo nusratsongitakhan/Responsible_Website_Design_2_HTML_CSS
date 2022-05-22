@@ -72,12 +72,6 @@ body{
     margin-left: 15%;
     margin-right: 15%;
 }
-/*.left_or_up{*/
-/*    flex-basis: 40%;*/
-/*}*/
-/*.right_or_down{*/
-/*    flex-basis: 60%;*/
-/*}*/
 .navbar{
     height: 100px;
     background-color: #FFFFFF;
@@ -192,7 +186,7 @@ h6{
     justify-content: space-between;
     height: 787px;
 }
-.service_left_or_up{
+.service_left_or_down{
     margin-top: 10%;
     margin-left: 12%;
 }
@@ -211,25 +205,25 @@ h6{
     top: -76%;
     left: 55%;
 }
-.service_right_or_down{
+.service_right_or_up{
     margin-top: 10%;
     margin-right: 18%;
     margin-left: 5%;
 }
-.service_right_or_down h2{
+.service_right_or_up h2{
     margin-left: 3%;
 }
-.service_right_or_down_service_description_logo_and_header{
+.service_right_or_up_service_description_logo_and_header{
     display: flex;
     column-gap: 4%;
     margin-top: 4%;
 }
-.service_right_or_down img{
+.service_right_or_up img{
     width: 3%;
     height: 3%;
 }
 
-.service_right_or_down p{
+.service_right_or_up p{
     font-family: 'Roboto', sans-serif;
     margin: 3% 7%;
     font-weight: 400;
@@ -411,3 +405,297 @@ h6{
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/*/////////////////////////////*/
+
+@media only screen and (max-width: 768px) and (min-width: 376px){
+    .container{
+        width: 768px;
+        height:5000px;
+        overflow: hidden;
+    }
+    nav{
+        display: none;
+    }
+
+    .search_icon{
+        margin-left: 80%;
+    }
+
+    .small_common_margin{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .big_common_margin{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .home{
+        Height: 940px;
+        background-position: 59% 77%;
+    }
+    .home_container{
+      flex-direction: column;
+    }
+
+    h1 {
+        font-size: 62px;
+        line-height: 93px;
+        margin: 9% 0 6% 3%;
+    }
+    .home_left_or_up_greenPlayIcon_and_description p {
+        font-size: 20px;
+        line-height: 41px;
+        margin: 0 0% 4% 0%;
+    }
+
+    .green_ellipse {
+        width: 7%;
+        padding: 1%;
+        margin: 1% 4% 0 4%;
+    }
+
+    .green_ellipse img {
+        width: 85%;
+    }
+
+    .girl_picture{
+        width: 89%;
+        margin: 10% 0 0 3%;
+    }
+    .service{
+        flex-direction: column-reverse;
+        margin: 31% 0 0 0;
+        height: 1250px;
+    }
+    h2 {
+
+        font-size: 44px;
+        line-height: 100px;
+
+    }
+    .laptop {
+        width: 87%;
+    }
+
+    .service_right_or_up_service_description{
+        margin-left: 4%;
+    }
+
+    .service_right_or_up img {
+        width: 4%;
+    }
+
+    h6 {
+        font-size: 22px;
+    }
+    .service_right_or_up p {
+        margin: 3% 0 3% 7%;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .view_details{
+        font-size: 19px;
+        line-height: 72px;
+        padding: 23px 45px;
+        top: -86%;
+        left: 52%;
+    }
+
+    .work{
+        height: 406px;
+        background-position: top center;
+        background-size: 90%;
+    }
+
+    .how_we_work {
+        width: 58%;
+        height: 52%;
+        left: 21%;
+        top: 65%;
+    }
+    .how_we_work h2 {
+        font-size: 32px;
+        line-height: 33px;
+    }
+
+    .how_we_work_container {
+        padding: 8% 10% 8%;
+    }
+
+    .how_we_work_container p {
+        font-size: 17px;
+        line-height: 22px;
+        margin: 13px 4% 7% 0;
+    }
+
+    .black_btn {
+        padding: 3% 5%;
+        font-size: 91%;
+    }
+
+    .biggest_fans h2 {
+        margin: 26% 15% 6%;
+        line-height: 77px;
+    }
+    .biggest_fans_logos {
+        margin: 3% 3%;
+    }
+    .biggest_fans_logos img {
+        margin-right: 2%;
+        margin-left: 12%;
+        width: 32%;
+    }
+    .biggest_fans p {
+        font-size: 22px;
+        line-height: 84px;}
+
+}
+
+/*/////////////*/
+
+@media only screen and (max-width: 375px){
+
+    .container{
+        width:  375px;
+        height:5000px;
+        overflow: hidden;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .search_icon{
+        margin-left: 56%;
+    }
+
+    .small_common_margin{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .big_common_margin{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .home{
+        Height: 645px;
+        background-position: 90% 79%;
+        background-size: 87%;
+    }
+    .home_container{
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 48px;
+        line-height: 65px;
+        margin: 9% 12% 5% 2%
+    }
+    .home_left_or_up_greenPlayIcon_and_description p {
+        font-size: 16px;
+        line-height: 33px;
+        margin: 0 1% 5% 1%;
+    }
+
+    .green_ellipse {
+        width: 18%;
+        padding: 1%;
+        margin: 3% 4% 0 4%;
+    }
+
+    .green_ellipse img {
+        width: 85%;
+    }
+
+    .girl_picture{
+        width: 93%;
+        margin: 6% 0 0 3%;
+    }
+
+    .service{
+        flex-direction: column-reverse;
+        margin: 99% 0 0 0;
+        height: 835px;
+    }
+    h2 {
+
+        font-size: 37px;
+        line-height: 42px;
+
+    }
+    .laptop {
+        width: 87%;
+    }
+
+    .service_right_or_up_service_description{
+        margin-left: 7%;
+    }
+
+    .service_right_or_up img {
+        width: 7%;
+        margin-top: 5%;
+    }
+
+    h6 {
+        font-size: 19px;
+        margin-top: 5%;
+    }
+    .service_right_or_up p {
+        margin: 3% 0 3% 13%;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .service_right_or_up h2 {
+        margin-left: 4%;
+        margin-bottom: 15%;}
+
+    .view_details{
+        font-size: 13px;
+        line-height: 72px;
+        padding: 12px 10px;
+        top: -82%;
+        left: 53%;
+    }
+
+    .work{
+        height: 406px;
+        background-position: top center;
+        background-size: 90%;
+    }
+
+    .how_we_work {
+        width: 58%;
+        height: 38%;
+        left: 21%;
+        top: 29%;
+    }
+
+    .how_we_work h2{
+        font-size: 21px;
+        line-height: 33px;
+    }
+
+    .how_we_work_container p{
+        font-size: 11px;
+        line-height: 22px;
+        margin: 0 1% 5% 0;
+    }
+
+    .black_btn {
+        padding: 1% 5%;
+        font-size: 91%;
+    }
+
+    .biggest_fans h2 {
+        margin: -17% 10% 9%;
+    }
+    .biggest_fans_logos img {
+        margin-right: 0;
+        margin-left: 21%;
+        width: 56%;
+        margin-top: 3%;
+    }
+}
