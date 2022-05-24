@@ -52,6 +52,19 @@ table {
     /*font-family: 'Inter', serif;*/
 
 }
+/*Css start for Smooth transition from one frame to other in respnsiveness*/
+*{
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    transition:all 1s ease;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+/*Css end for Smooth transition from one frame to other in respnsiveness*/
+
+
 html {
     scroll-behavior: smooth;
 }
